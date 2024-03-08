@@ -44,12 +44,6 @@ git clone <url-do-repositorio>
 2_ Executar o Arquivo restaurar_dump.bat
 
 
-##### #Navegue até a pasta do backend
-```bash
-cd backend
-```
-
-
 ##### #Instale as dependências
 ```bash
 npm install
