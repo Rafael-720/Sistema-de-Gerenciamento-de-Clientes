@@ -75,4 +75,38 @@ npm install
 npm start
 ```
 
+### Endpoints da API
+
+#### GET /clientes
+Lista todos os clientes com opções de busca e ordenação.
+
+#### POST /clientes
+Cadastra um novo cliente.
+
+#### DELETE /clientes/:id
+Exclui um cliente pelo ID.
+
+#### GET /calcular-rota
+Calcula e retorna o menor percurso de rota entre todos os clientes cadastrados.
+
+
+
+### Principais Funcionalidades
+
+#### Listagem de Clientes
+Exibe todos os clientes cadastrados em uma tabela com barra de rolagem, permitindo a visualização completa independente da quantidade de clientes.
+
+#### Cadastro de Novos Clientes
+Permite o cadastro de novos clientes com validação dos campos de entrada, assegurando que todas as informações necessárias sejam inseridas corretamente.
+
+#### Exclusão de Clientes
+Oferece a opção de excluir clientes específicos da base de dados.
+
+#### Busca Dinâmica e Ordenação
+Facilita a busca de clientes por nome, email, e telefone, com a possibilidade de ordenar os resultados por qualquer um desses campos ou pelas coordenadas geográficas, tanto em ordem ascendente quanto descendente.
+
+#### Cálculo de Menor Percurso de Rota
+Calcula e apresenta o menor percurso de rota a partir de um ponto inicial, otimizando a sequência de visitação dos clientes baseando-se em suas coordenadas geográficas. Esta funcionalidade é particularmente útil para otimizar rotas de entrega ou visitas.
+
+
 
