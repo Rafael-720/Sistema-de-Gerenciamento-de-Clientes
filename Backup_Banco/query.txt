@@ -10,3 +10,9 @@ CREATE TABLE clientes (
 );
 
 select * from clientes;
+
+
+
+DDL (cmd)
+
+pg_dump -U postgres -h localhost -p 5432 -d gerenciamento_clientes -t clientes --schema-only --no-owner --no-privileges -W > "clientes_ddl.sql"
