@@ -32,16 +32,38 @@ Este projeto é um sistema de gerenciamento de clientes que utiliza **React** no
 git clone https://github.com/Rafael-720/Sistema-de-Gerenciamento-de-Clientes.git
 ```
 
-#### ---- Backend
+#### ---- Banco de Dados
 
 ### Restaurando o Dump do Banco de Dados
 
 1_ Criar Banco de Dados em Branco**: Se ainda não criou, abra o psql e crie um banco de dados em branco com o comando:
    ```sql
-   CREATE DATABASE gerenciamento_clientes;
+   CREATE DATABASE postgres;
    ```
 
-2_ Executar o Arquivo restaurar_dump.bat
+2_ Navegue até a pasta do Backup_Banco
+```bash
+cd Backup_Banco
+```
+
+3_ Edite o arquivo restaurar_dump.bat com bloco de notas e confira se as configurações de porta -p, host -h, usuario -U e nome do banco -d estao corretas
+
+
+
+4_ Executar o Arquivo restaurar_dump.bat, dai é só colocar a senha do banco em branco que foi c riado.
+
+
+
+#### ---- Banco de Dados
+
+##### #Navegue até a pasta do backend
+```bash
+cd ..
+```
+
+```bash
+cd backend
+```
 
 
 ##### #Instale as dependências
@@ -60,7 +82,9 @@ npm run dev
 
 #### ---- Frontend
 
-##### #Navegue até a pasta do frontend
+##### #No diretorio raiz navegue até a pasta do frontend
+
+
 ```bash
 cd frontend
 ```
