@@ -29,7 +29,7 @@ Este projeto é um sistema de gerenciamento de clientes que utiliza **React** no
 
 ##### #Clone o repositório:
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/Rafael-720/Sistema-de-Gerenciamento-de-Clientes.git
 ```
 
 #### ---- Backend
