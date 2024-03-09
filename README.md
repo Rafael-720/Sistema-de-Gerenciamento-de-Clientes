@@ -3,6 +3,9 @@
  
 Este projeto é um sistema de gerenciamento de clientes que utiliza **React** no frontend e **Node.js** com **Express** no backend. **PostgreSQL** é usado como banco de dados, e **Axios** é utilizado para realizar requisições HTTP entre o cliente e o servidor. A aplicação permite a adição, listagem, exclusão e busca de clientes, além de calcular o menor percurso de rota entre os clientes cadastrados se baseando no Problema do Caixeiro Viajante (PCV) que é um problema clássico de otimização combinatória.
 
+link demonstração 
+https://youtu.be/LulDWLF_IXE
+
 ## 🛠 Ferramentas e Versões Utilizadas
 
 - **Node.js**: `v18.18.2`
